@@ -1,0 +1,32 @@
+<section class="contact-us">
+<h2>HTML5 Test Form</h2>
+
+<?php if ($this->error): ?>
+<p class="error">
+    There were one or more isues with your submission. Please correct them as 
+    indicated below.
+</p>
+<?php endif ?>
+
+<?php 
+$form = $this->form;
+$form->prepare();
+$form->setAttribute('action', $this->url(NULL, array('controller'=>'Html5Test', 'action' => 'multiUpload')));
+$form->setAttribute('method', 'post');
+
+echo $this->form()->openTag($form);
+?>
+<dl class="zend_form">
+<dt>Multi Upload Test Form</dt>
+
+<dt><?php echo $this->formLabel($form->get('imageupload')); ?></dt>
+<dd><?php 
+    echo $this->formFile($form->get('imageupload'));
+    echo $this->formElementErrors($form->get('imageupload'));
+?></dd>
+
+<dd><?php echo $this->formSubmit($form->get('submit'));?></dd>
+
+</dl>
+<?php echo $this->form()->closeTag() ?>
+</section>

@@ -1,0 +1,64 @@
+<h3>Gallery</h3>
+
+<table class="table">
+<tr>
+    <th>Image</th>
+    <th>Actions</th>
+</tr>
+<?php foreach ($myUploads as $upload) : ?>
+<tr>
+    <td><a href="<?php echo $this->url('users/media',
+            array('action'=>'view', 'id' => $upload->id));?>"><img src="<?php echo $this->url('users/media',
+            array('action'=>'showImage', 'id' => $upload->id, 'subaction' => 'thumb'));?>" />
+            <br/>
+            <?php echo $this->escapeHtml($upload->label);?>
+            
+            </a></td>
+    <td>
+
+        <a href="<?php echo $this->url('users/media',
+            array('action'=>'delete', 'id' => $upload->id));?>" onclick="return confirm('Are you sure?')">Delete</a>
+    </td>
+</tr>
+<?php endforeach; ?>
+</table>
+  
+<hr />
+<a href="<?php echo $this->url('users/media',
+            array('action'=>'upload'));?>">&raquo; Upload Image</a>
+            
+<hr />
+<br />
+<br />
+<h3>Google Photos - Albums</h3>
+
+<?php foreach ($googleAlbums as $googleAlbum) : ?>
+<h4> <?php echo $this->escapeHtml($googleAlbum['label']);?> </h4>
+	<?php foreach ($googleAlbum['photos'] as $googleAlbumPhoto) : ?>
+	<div class = "googleAlbumPhoto" style="padding:10px; display:inline">
+		<a href="<?php echo $this->escapeHtml($googleAlbumPhoto['photoUrl']);?>"><img src="<?php echo $this->escapeHtml($googleAlbumPhoto['thumbUrl']);?>" /></a> 
+	</div>
+	<?php endforeach; ?>
+<?php endforeach; ?>
+<hr />
+<br />
+<br />
+
+<h3>Youtube Videos - for keyword: Zend Framework</h3>
+	<?php foreach ($youtubeVideos as $yVideo) : ?>
+	<div class = "Youtube Video" style="padding:10px; display:block; width: 80%;">
+		<div style="float:left; padding: 10px;">
+		<a href="<?php echo $this->escapeHtml($yVideo['watchPage']);?>">
+		<img src="<?php echo $this->escapeHtml($yVideo['thumbnailUrl']);?>" />
+		</a> 
+		</div>
+		<div>
+		<a href="<?php echo $this->escapeHtml($yVideo['watchPage']);?>">
+		<h4><?php echo $this->escapeHtml($yVideo['videoTitle']);?> </h4>
+		</a> 
+		<p> <?php echo $this->escapeHtml($yVideo['videoDescription']);?> </p>
+		<span> Duration : <?php echo $this->escapeHtml($yVideo['duration']);?> secs</span>	
+		</div>
+	</div>
+	<?php endforeach; ?>
+

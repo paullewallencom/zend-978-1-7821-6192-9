@@ -1,0 +1,16 @@
+<h3>Send Offline Message</h3>
+<?php 
+// Render the opening tag
+echo $this->form()->openTag($form);
+
+// ...loop through and render the form elements...
+echo 'From : '. $userName .'';
+foreach ($form as $element) {
+	echo $this->formLabel($element);       // <-- Magic!
+    echo $this->formElement($element);       // <-- Magic!
+    echo $this->formElementErrors($element);
+}
+
+// Render the closing tag
+echo $this->form()->closeTag();
+?>

@@ -1,0 +1,52 @@
+<?php //$this->headTitle()->prepend('Register'); ?>
+<section class="register">
+<h2>Register</h2>
+
+<?php if ($this->error): ?>
+<p class="error">
+    There were one or more isues with your submission. Please correct them as 
+    indicated below.
+</p>
+<?php endif ?>
+
+<?php 
+$form = $this->form;
+$form->prepare();
+$form->setAttribute('action', $this->url(NULL, array('controller'=>'Register', 'action' => 'process')));
+$form->setAttribute('method', 'post');
+
+echo $this->form()->openTag($form);
+?>
+<dl class="zend_form">
+<dt><?php echo $this->formLabel($form->get('name')); ?></dt>
+<dd><?php 
+    echo $this->formElement($form->get('name'));
+    echo $this->formElementErrors($form->get('name'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('email')); ?></dt>
+<dd><?php 
+    echo $this->formElement($form->get('email'));
+    echo $this->formElementErrors($form->get('email'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('password')); ?></dt>
+<dd><?php 
+    echo $this->formElement($form->get('password'));
+    echo $this->formElementErrors($form->get('password'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('confirm_password')); ?></dt>
+<dd><?php 
+    echo $this->formElement($form->get('confirm_password'));
+    echo $this->formElementErrors($form->get('confirm_password'));
+?></dd>
+
+<dd><?php 
+    echo $this->formElement($form->get('submit'));
+    echo $this->formElementErrors($form->get('submit'));
+?></dd>
+
+</dl>
+<?php echo $this->form()->closeTag() ?>
+</section>

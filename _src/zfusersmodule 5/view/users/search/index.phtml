@@ -1,0 +1,40 @@
+<h3>Document Search</h3>
+<?php 
+// Render the opening tag
+echo $this->form()->openTag($form);
+
+// ...loop through and render the form elements...
+foreach ($form as $element) {
+    echo $this->formElement($element);       // <-- Magic!
+    echo $this->formElementErrors($element);
+}
+
+// Render the closing tag
+echo $this->form()->closeTag();
+
+// SEARCH RESULTS
+if (count($searchResults)) {
+?>
+<h5>Results</h5>
+<table  style="width: 600px; border:1px solid #f5f5f5;">
+	<tr> 
+		<th width="30%" align="left"> Label</th>
+		<th width="30%" align="left"> Owner</th>
+		<th align="left"> File</th>
+	</tr>
+	<?php 
+	foreach ($searchResults as $searchResult) {
+	?>
+	<tr> 
+		<td><?php echo $searchResult->label; ?></td>
+		<td><?php echo $searchResult->owner; ?></td>
+		<td><a href="<?php echo $this->escapeHtml($this->url('users/upload-manager',
+            array('action'=>'fileDownload', 'id' => $searchResult->upload_id)));?>">Download</a></td>
+	</tr>
+	<?php 
+	}
+	?>
+</table>
+<?php 
+}
+?>

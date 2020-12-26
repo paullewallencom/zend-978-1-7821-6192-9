@@ -1,0 +1,103 @@
+
+<section class="upload">
+	<h2>Edit Upload</h2>
+	
+	<?php if ($this->error): ?>
+	<p class="error">
+	    There were one or more isues with your submission. Please correct them as 
+	    indicated below.
+	</p>
+	<?php endif ?>
+	
+	<?php 
+	$form = $this->form;
+	$form->prepare();
+	$form->setAttribute('action', $this->url(NULL, array('controller'=>'UploadManager', 'action' => 'processUpload')));
+	$form->setAttribute('method', 'post');
+	
+	echo $this->form()->openTag($form);
+	?>
+	
+		<table class="table">
+	
+		<tr>
+		    <td> <?php echo $this->formLabel($form->get('label')); ?> </td>
+			<td> <?php  echo $this->formElement($form->get('label'));
+		    			echo $this->formElementErrors($form->get('label'));	?> 
+			</td>
+		</tr>
+		<tr>
+		    <td> &nbsp;</td>
+			<td><?php echo $this->formElement($form->get('submit'));
+		    	echo $this->formElementErrors($form->get('submit'));
+				?>
+			</td>
+		</tr>		
+		</table>
+	
+	<?php echo $this->form()->closeTag() ?>
+</section>
+
+<section class="upload-sharing">
+	<h3>Upload Sharing</h3>
+	
+	
+	
+	<table class="table">
+	<tr>
+	    <th>Shared User</th>
+	    <th>Actions</th>
+	</tr>
+	<?php foreach ($sharedUsers as $shareId => $userName) : ?>
+	<tr>
+	    <td><?php echo $this->escapeHtml($userName);?></td>
+	    <td>
+	        <a href="<?php echo $this->url('users/upload-manager',
+	            array('action'=>'deleteShare', 'id' => $shareId));?>" onclick="return confirm('Are you sure?')">Delete</a>
+	    </td>
+	</tr>
+	<?php endforeach; ?>
+	</table>
+	
+	<h3>Add Sharing</h3>
+	
+	
+	<?php if ($this->error): ?>
+	<p class="error">
+	    There were one or more isues with your submission. Please correct them as 
+	    indicated below.
+	</p>
+	<?php endif ?>
+	<?php 
+	$uploadShareForm = $this->uploadShareForm;
+	$uploadShareForm->prepare();
+	$uploadShareForm->setAttribute('action', $this->url(NULL, array('controller'=>'UploadManager', 'action' => 'processUploadShare')));
+	$uploadShareForm->setAttribute('method', 'post');
+	
+	echo $this->form()->openTag($uploadShareForm);
+	?>
+	
+	<?php 
+		    echo $this->formElement($uploadShareForm->get('upload_id'));
+		    echo $this->formElementErrors($uploadShareForm->get('upload_id'));
+	?>
+	<table class="table">
+	
+		<tr>
+		    <td>Choose User:</td>
+			<td><?php 
+		    echo $this->formElement($uploadShareForm->get('user_id'));
+		    echo $this->formElementErrors($uploadShareForm->get('user_id'));
+		?> </td>
+		</tr>
+		<tr>
+		    <td> &nbsp;</td>
+			<td><?php echo $this->formElement($uploadShareForm->get('submit'));
+		    	echo $this->formElementErrors($uploadShareForm->get('submit'));
+				?>
+			</td>
+		</tr>		
+	</table>
+	
+	<?php echo $this->form()->closeTag() ?>
+</section>

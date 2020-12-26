@@ -1,0 +1,8 @@
+
+<section class="upload">
+<h2><?php echo $this->escapeHtml($upload->label);?></h2>
+<h4><?php echo $this->escapeHtml($upload->filename);?></h4>
+<img src="<?php echo $this->url('users/media',
+            array('action'=>'showImage', 'id' => $upload->id, 'subaction' => 'full'));?>" />
+</section>
+<a href="<?php echo $this->url('users/media');?>">&raquo; Show Gallery</a>

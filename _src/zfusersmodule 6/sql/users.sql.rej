@@ -1,0 +1,7 @@
+--- zfusersmodule/sql/users.sql
++++ zfusersmodule/sql/users.sql
+@@ -32,4 +30,4 @@
+ 	`user_id` INT NOT NULL,
+ 	`message` VARCHAR( 255 ) NOT NULL ,	
+ 	`stamp` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-)+)

@@ -1,0 +1,50 @@
+<a href="<?php echo $this->url('users/store-admin');?>"> View Products</a> | <a href="<?php echo $this->url('users/store-admin', array('action'=>'listOrders'));?>"> View Orders</a>
+<hr />
+
+<h3>Order Information</h3>
+<hr />
+<h5>Order Num # <?php echo $storeOrder->id; ?></h5>
+<h5>Status : <?php echo $storeOrder->status; ?></h5>
+
+<table width="30%" border="1">
+	<tr>
+		<td>
+			<h6>Shipping/Billing Information </h6>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<?php echo $storeOrder->first_name . " " . $storeOrder->last_name; ?> <br />
+			<?php echo $storeOrder->email; ?> <br />
+			<?php echo $storeOrder->ship_to_street; ?> <br />
+			<?php echo $storeOrder->ship_to_city . ", " . $storeOrder->ship_to_state; ?> <br />
+			<?php echo $storeOrder->ship_to_zip; ?> <br />			
+		</td>
+	</tr>
+</table>
+<hr />
+<h5>Order Details</h5>
+<table width="80%" border="1">
+	<tr>
+		<th> Name</th>
+		<th> Qty</th>
+		<th> Unit Cost</th>
+		<th> Total</th>
+	</tr>
+	<tr>
+		<td> <?php echo $orderProduct->name; ?> </td>
+		<td> <?php echo $storeOrder->qty; ?> </td>
+		<td> <?php echo $orderProduct->cost; ?> </td>
+		<td> <?php echo $storeOrder->total; ?> </td>
+	</tr>
+</table>
+<hr />
+<h5>Update Order Status</h5>
+        <a href="<?php echo $this->url('users/store-admin',
+            array('action'=>'updateOrderStatus', 'id' => $storeOrder->id, 'subaction' => 'new'));?>">Set as New</a> | 
+        <a href="<?php echo $this->url('users/store-admin',
+            array('action'=>'updateOrderStatus', 'id' => $storeOrder->id, 'subaction' => 'completed'));?>">Set as Complete</a> | 
+        <a href="<?php echo $this->url('users/store-admin',
+            array('action'=>'updateOrderStatus', 'id' => $storeOrder->id, 'subaction' => 'shipped'));?>">Set as Shipped</a> | 
+        <a href="<?php echo $this->url('users/store-admin',
+            array('action'=>'updateOrderStatus', 'id' => $storeOrder->id, 'subaction' => 'cancelled'));?>">Set as Cancelled</a>

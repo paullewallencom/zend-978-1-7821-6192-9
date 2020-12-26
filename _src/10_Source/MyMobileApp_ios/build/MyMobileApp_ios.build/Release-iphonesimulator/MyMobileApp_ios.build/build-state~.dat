@@ -1,0 +1,603 @@
+TMyMobileApp_ios
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Info.plist MyMobileApp_ios/MyMobileApp_ios-Info.plist
+cSymLink /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.app /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app
+cPhaseScriptExecution "Touch www folder" /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Script-304B58A110DAC018002A0835.sh
+cCpResource www /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/www
+cCopyPlistFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Cordova.plist MyMobileApp_ios/Resources/../Cordova.plist
+cCpResource MyMobileApp_ios/Resources/icons/icon-72.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon-72.png
+cCpResource MyMobileApp_ios/Resources/icons/icon.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon.png
+cCpResource MyMobileApp_ios/Resources/icons/icon@2x.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon@2x.png
+cCpResource MyMobileApp_ios/Resources/Capture.bundle /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Capture.bundle
+cCopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/en.lproj/Localizable.strings MyMobileApp_ios/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/es.lproj/Localizable.strings MyMobileApp_ios/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.xib
+cCopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/de.lproj/Localizable.strings MyMobileApp_ios/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/se.lproj/Localizable.strings MyMobileApp_ios/Resources/se.lproj/Localizable.strings
+cCpResource MyMobileApp_ios/Resources/splash/Default-Landscape@2x~ipad.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape@2x~ipad.png
+cCpResource MyMobileApp_ios/Resources/splash/Default-Landscape~ipad.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape~ipad.png
+cCpResource MyMobileApp_ios/Resources/splash/Default-Portrait@2x~ipad.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait@2x~ipad.png
+cCpResource MyMobileApp_ios/Resources/splash/Default-Portrait~ipad.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait~ipad.png
+cCpResource MyMobileApp_ios/Resources/splash/Default@2x~iphone.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default@2x~iphone.png
+cCpResource MyMobileApp_ios/Resources/splash/Default~iphone.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default~iphone.png
+cProcessPCH /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch.pth MyMobileApp_ios/MyMobileApp_ios-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/main.o /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/AppDelegate.o /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/MainViewController.o /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000051A2593D00000000001EB540
+t1369594173
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000051A2593C00000000000C1030
+t1369594172
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000051A2593D0000000000193640
+t1369594173
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051A2593D00000000003D4DF0
+t1369594173
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000051A2593E0000000000215DB0
+t1369594174
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000051A2593E0000000000228FE0
+t1369594174
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000051A2593E000000000009C590
+t1369594174
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000051A2593E0000000000085620
+t1369594174
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051A2594000000000003DDFA0
+t1369594176
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000051A2594400000000002DBA50
+t1369594180
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000051A2594500000000000BCC20
+t1369594181
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000051A2594600000000001D5750
+t1369594182
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000051A25946000000000006CC50
+t1369594182
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000051A259490000000000AB6230
+t1369594185
+s11231792
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.m
+c0000000051A2C587000000000000159E
+t1369621895
+s5534
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.m
+c0000000051A2C587000000000000111C
+t1369621895
+s4380
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.xib
+c0000000051A2C5870000000000001758
+t1369621895
+s5976
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/MyMobileApp_ios-Prefix.pch
+c0000000051A2C58700000000000003CE
+t1369621895
+s974
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/../Cordova.plist
+c0000000051A2C58700000000000005C9
+t1369621895
+s1481
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/Capture.bundle
+c0000000051A2C58700000000000002EC
+t1369621895
+s748
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/de.lproj/Localizable.strings
+c0000000051A2C5870000000000000485
+t1369621895
+s1157
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/en.lproj/Localizable.strings
+c0000000051A2C5870000000000000470
+t1369621895
+s1136
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/es.lproj/Localizable.strings
+c0000000051A2C587000000000000047D
+t1369621895
+s1149
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/icons/icon-72.png
+c0000000051A2C5870000000000001350
+t1369621895
+s4944
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/icons/icon.png
+c0000000051A2C5870000000000000F3E
+t1369621895
+s3902
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/icons/icon@2x.png
+c0000000051A2C5870000000000001EBD
+t1369621895
+s7869
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/se.lproj/Localizable.strings
+c0000000051A2C5870000000000000471
+t1369621895
+s1137
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000051A2C5870000000000176888
+t1369621895
+s1534088
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default-Landscape~ipad.png
+c0000000051A2C58700000000000674B7
+t1369621895
+s423095
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000051A2C58700000000001892C2
+t1369621895
+s1610434
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default-Portrait~ipad.png
+c0000000051A2C5870000000000066F23
+t1369621895
+s421667
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default@2x~iphone.png
+c0000000051A2C5870000000000055981
+t1369621895
+s350593
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default~iphone.png
+c0000000051A2C5870000000000016EC9
+t1369621895
+s93897
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/main.m
+c0000000051A2C5870000000000000436
+t1369621895
+s1078
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.app
+t2
+s0
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.app.dSYM
+t2
+s0
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/MyMobileApp_ios.LinkFileList
+c0000000051A2C5B60000000000000204
+t1369621942
+s516
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Script-304B58A110DAC018002A0835.sh
+c0000000051A2C5B60000000000000027
+t1369621942
+s39
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/libCordova.a
+c0000000051A2C5B100000000000DA738
+t1369621937
+s894776
+
+N/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/www
+c0000000051A2C58700000000000000AA
+t1369621895
+s170
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Capture.bundle
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Cordova.plist
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default@2x~iphone.png
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default~iphone.png
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Info.plist
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/MainViewController.nib
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/MyMobileApp_ios
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/PkgInfo
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon-72.png
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon.png
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon@2x.png
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/www
+t2
+s0
+
+NMyMobileApp_ios/MyMobileApp_ios-Info.plist
+c0000000051A2C5870000000000000AC0
+t1369621895
+s2752
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese205dd36fd52b741^280ae036fd52b741^---0#1#0#--18"Check dependencies36"C26FEDD4-54E5-4BA4-9F5E-1F52F834FFD4-
+
+CCompileC build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/AppDelegate.o /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391314751.578093
+e391314751.659715
+r0
+xCompileC
+xbuild/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/AppDelegate.o
+x/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.m:28:
+o/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.h:30:9: fatal error: 'Cordova/CDVViewController.h' file not found
+o#import <Cordova/CDVViewController.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.md238943ffd52b741^158ea83ffd52b741^-361"In file included from /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.m:28:/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.h:30:9: fatal error: 'Cordova/CDVViewController.h' file not found#import <Cordova/CDVViewController.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@44"'Cordova/CDVViewController.h' file not found-391314751#18446744073709551615#0#1(2@127"In file included from /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.m:28:-391314751#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@117"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.m0000000000000000^27#8#27#8#917#0#30"Apple LLVM compiler 4.2 Notice--2#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.h0000000000000000^29#8#29#8#942#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@117"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.m0000000000000000^3951"CompileC build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/AppDelegate.o MyMobileApp_ios/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.2 -iquote /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-generated-files.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-own-target-headers.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-all-target-headers.hmap -iquote /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-project-headers.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/include -I/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/usr/local/lib/include -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/UninstalledProducts/include -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources/i386 -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources -F/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build -include /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch -MMD -MT dependencies -MF /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/AppDelegate.dia -c /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/AppDelegate.m -o /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/AppDelegate.o36"E7B4742D-6054-4CC2-BEE1-2FDAE9A118C2-
+
+CCompileC build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/MainViewController.o /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391314751.615601
+e391314751.761224
+r0
+xCompileC
+xbuild/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/MainViewController.o
+x/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.m:28:
+o/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.h:28:9: fatal error: 'Cordova/CDVViewController.h' file not found
+o#import <Cordova/CDVViewController.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.ma5bd9d3ffd52b741^35edc23ffd52b741^-375"In file included from /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.m:28:/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.h:28:9: fatal error: 'Cordova/CDVViewController.h' file not found#import <Cordova/CDVViewController.h>        ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.m0000000000000000^3993"CompileC build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/MainViewController.o MyMobileApp_ios/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.2 -iquote /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-generated-files.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-own-target-headers.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-all-target-headers.hmap -iquote /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-project-headers.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/include -I/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/usr/local/lib/include -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/UninstalledProducts/include -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources/i386 -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources -F/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build -include /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch -MMD -MT dependencies -MF /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/MainViewController.dia -c /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.m -o /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/MainViewController.o36"CA75FAA3-C382-41C2-8B44-E3941606C578-
+
+CCompileC build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/main.o /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391314751.578026
+e391314751.614157
+r1
+xCompileC
+xbuild/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/main.o
+x/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/main.m2236943ffd52b741^56489d3ffd52b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/main.m0000000000000000^3893"CompileC build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/main.o MyMobileApp_ios/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.2 -iquote /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-generated-files.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-own-target-headers.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-all-target-headers.hmap -iquote /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-project-headers.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/include -I/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/usr/local/lib/include -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/UninstalledProducts/include -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources/i386 -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources -F/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build -include /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch -MMD -MT dependencies -MF /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/main.dia -c /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/main.m -o /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/main.o36"4D6774AC-62F3-47B7-B1B5-901C816E7261-
+
+CCompileXIB /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.xib
+s391314742.998479
+e391314751.125498
+r1
+xCompileXIB
+x/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compiling /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.xib46b6ff36fd52b741^8237203ffd52b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.xib0000000000000000^995"CompileXIB MyMobileApp_ios/Classes/MainViewController.xib    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/MainViewController.nib /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"0A6CCDD3-9213-4BA1-A32D-2900B4D1D797-
+
+CCopyPlistFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Cordova.plist MyMobileApp_ios/Resources/../Cordova.plist
+s391314742.946593
+e391314742.962960
+r1
+xCopyPlistFile
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Cordova.plist
+xMyMobileApp_ios/Resources/../Cordova.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy MyMobileApp_ios/Resources/../Cordova.plist8f6cf236fd52b741^e28ff636fd52b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/../Cordova.plist0000000000000000^618"CopyPlistFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Cordova.plist MyMobileApp_ios/Resources/../Cordova.plist    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app -- MyMobileApp_ios/Resources/../Cordova.plist36"157AD9E1-83AA-4D6C-A166-640BD281111E-
+
+CCopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/de.lproj/Localizable.strings MyMobileApp_ios/Resources/de.lproj/Localizable.strings
+s391314742.999046
+e391314743.005678
+r1
+xCopyStringsFile
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/de.lproj/Localizable.strings
+xMyMobileApp_ios/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy MyMobileApp_ios/Resources/de.lproj/Localizable.strings42d2ff36fd52b741^897e0137fd52b741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/de.lproj/Localizable.strings0000000000000000^709"CopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/de.lproj/Localizable.strings MyMobileApp_ios/Resources/de.lproj/Localizable.strings    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/de.lproj -- MyMobileApp_ios/Resources/de.lproj/Localizable.strings36"5E6D7746-B5A0-41BE-8D0A-7A26E720773E-
+
+CCopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/en.lproj/Localizable.strings MyMobileApp_ios/Resources/en.lproj/Localizable.strings
+s391314742.968673
+e391314742.997276
+r1
+xCopyStringsFile
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/en.lproj/Localizable.strings
+xMyMobileApp_ios/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy MyMobileApp_ios/Resources/en.lproj/Localizable.strings560ff836fd52b741^1d57ff36fd52b741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/en.lproj/Localizable.strings0000000000000000^709"CopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/en.lproj/Localizable.strings MyMobileApp_ios/Resources/en.lproj/Localizable.strings    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/en.lproj -- MyMobileApp_ios/Resources/en.lproj/Localizable.strings36"83F85CC9-2A60-4962-9A22-BBF03D202E33-
+
+CCopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/es.lproj/Localizable.strings MyMobileApp_ios/Resources/es.lproj/Localizable.strings
+s391314742.979237
+e391314742.997305
+r1
+xCopyStringsFile
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/es.lproj/Localizable.strings
+xMyMobileApp_ios/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy MyMobileApp_ios/Resources/es.lproj/Localizable.strings5dc5fa36fd52b741^795dff36fd52b741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/es.lproj/Localizable.strings0000000000000000^709"CopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/es.lproj/Localizable.strings MyMobileApp_ios/Resources/es.lproj/Localizable.strings    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/es.lproj -- MyMobileApp_ios/Resources/es.lproj/Localizable.strings36"0ADEA584-F640-47F3-830B-D2B2B6024C8D-
+
+CCopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/se.lproj/Localizable.strings MyMobileApp_ios/Resources/se.lproj/Localizable.strings
+s391314743.017674
+e391314743.056010
+r1
+xCopyStringsFile
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/se.lproj/Localizable.strings
+xMyMobileApp_ios/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy MyMobileApp_ios/Resources/se.lproj/Localizable.strings399d0437fd52b741^b8570e37fd52b741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/se.lproj/Localizable.strings0000000000000000^709"CopyStringsFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/se.lproj/Localizable.strings MyMobileApp_ios/Resources/se.lproj/Localizable.strings    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/se.lproj -- MyMobileApp_ios/Resources/se.lproj/Localizable.strings36"0A2D60E5-E448-404E-8C75-DDC542F0C9A1-
+
+CCpResource MyMobileApp_ios/Resources/Capture.bundle /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Capture.bundle
+s391314742.967057
+e391314742.977586
+r1
+xCpResource
+xMyMobileApp_ios/Resources/Capture.bundle
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Capture.bundle1ea8f736fd52b741^274efa36fd52b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Capture.bundle000000000080d041^862"CpResource MyMobileApp_ios/Resources/Capture.bundle /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Capture.bundle    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/Capture.bundle /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"68E01369-BB30-4522-AB3F-5E6E0A5867A9-
+
+CCpResource MyMobileApp_ios/Resources/icons/icon-72.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon-72.png
+s391314742.958920
+e391314742.962006
+r1
+xCpResource
+xMyMobileApp_ios/Resources/icons/icon-72.png
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon-72.png5f9bf536fd52b741^3f54f636fd52b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon-72.png000000000080d041^865"CpResource MyMobileApp_ios/Resources/icons/icon-72.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon-72.png    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/icons/icon-72.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"F52F82DF-5D97-4597-95F6-2ABBA01185DE-
+
+CCpResource MyMobileApp_ios/Resources/icons/icon.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon.png
+s391314742.963412
+e391314742.965852
+r1
+xCpResource
+xMyMobileApp_ios/Resources/icons/icon.png
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon.pngdcb7f636fd52b741^3143f736fd52b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon.png000000000080d041^856"CpResource MyMobileApp_ios/Resources/icons/icon.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon.png    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/icons/icon.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"BC25D71F-CD4A-4DCA-B5E1-85EE7E3DB197-
+
+CCpResource MyMobileApp_ios/Resources/icons/icon@2x.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon@2x.png
+s391314742.963927
+e391314742.967398
+r1
+xCpResource
+xMyMobileApp_ios/Resources/icons/icon@2x.png
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon@2x.pnge0d5f636fd52b741^5bb1f736fd52b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon@2x.png000000000080d041^871"CpResource "MyMobileApp_ios/Resources/icons/icon@2x.png" "/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/icon@2x.png"    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/icons/icon@2x.png" /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"73FEF052-9A9C-4E04-86C2-F0FBE7A7CF18-
+
+CCpResource MyMobileApp_ios/Resources/splash/Default-Landscape@2x~ipad.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape@2x~ipad.png
+s391314743.057369
+e391314743.077541
+r1
+xCpResource
+xMyMobileApp_ios/Resources/splash/Default-Landscape@2x~ipad.png
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape@2x~ipad.png47ca0e37fd52b741^86e51337fd52b741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape@2x~ipad.png000000000080d041^927"CpResource "MyMobileApp_ios/Resources/splash/Default-Landscape@2x~ipad.png" "/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape@2x~ipad.png"    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default-Landscape@2x~ipad.png" /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"F2EF4877-BFBE-4056-B3CA-F8848CE9A33C-
+
+CCpResource MyMobileApp_ios/Resources/splash/Default-Landscape~ipad.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape~ipad.png
+s391314743.078859
+e391314743.082362
+r1
+xCpResource
+xMyMobileApp_ios/Resources/splash/Default-Landscape~ipad.png
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape~ipad.png2c471437fd52b741^55161537fd52b741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape~ipad.png000000000080d041^918"CpResource "MyMobileApp_ios/Resources/splash/Default-Landscape~ipad.png" "/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Landscape~ipad.png"    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default-Landscape~ipad.png" /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"C5AECAA0-022F-40A5-B9ED-69CD7F94D819-
+
+CCpResource MyMobileApp_ios/Resources/splash/Default-Portrait@2x~ipad.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait@2x~ipad.png
+s391314743.083731
+e391314743.095147
+r1
+xCpResource
+xMyMobileApp_ios/Resources/splash/Default-Portrait@2x~ipad.png
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait@2x~ipad.pngd3881537fd52b741^035c1837fd52b741^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait@2x~ipad.png000000000080d041^924"CpResource "MyMobileApp_ios/Resources/splash/Default-Portrait@2x~ipad.png" "/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait@2x~ipad.png"    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default-Portrait@2x~ipad.png" /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"3A098567-A023-44EF-96B0-A8672E12E943-
+
+CCpResource MyMobileApp_ios/Resources/splash/Default-Portrait~ipad.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait~ipad.png
+s391314743.096493
+e391314743.100491
+r1
+xCpResource
+xMyMobileApp_ios/Resources/splash/Default-Portrait~ipad.png
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait~ipad.png71ca1837fd52b741^6fba1937fd52b741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait~ipad.png000000000080d041^915"CpResource "MyMobileApp_ios/Resources/splash/Default-Portrait~ipad.png" "/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default-Portrait~ipad.png"    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default-Portrait~ipad.png" /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"2E398D89-FA66-40C3-A344-370F4D6C933D-
+
+CCpResource MyMobileApp_ios/Resources/splash/Default@2x~iphone.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default@2x~iphone.png
+s391314743.101826
+e391314743.105309
+r1
+xCpResource
+xMyMobileApp_ios/Resources/splash/Default@2x~iphone.png
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default@2x~iphone.png4a271a37fd52b741^d9051b37fd52b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default@2x~iphone.png000000000080d041^903"CpResource "MyMobileApp_ios/Resources/splash/Default@2x~iphone.png" "/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default@2x~iphone.png"    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default@2x~iphone.png" /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"7BB6958B-E5FD-48C1-8B58-93E444896961-
+
+CCpResource MyMobileApp_ios/Resources/splash/Default~iphone.png /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default~iphone.png
+s391314743.106591
+e391314743.110203
+r1
+xCpResource
+xMyMobileApp_ios/Resources/splash/Default~iphone.png
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default~iphone.png18601b37fd52b741^2e371c37fd52b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default~iphone.png000000000080d041^894"CpResource "MyMobileApp_ios/Resources/splash/Default~iphone.png" "/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Default~iphone.png"    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/Resources/splash/Default~iphone.png" /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"5298FFAB-2424-4386-A36B-208B99628EF0-
+
+CCpResource www /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/www
+s391314742.945887
+e391314742.956937
+r1
+xCpResource
+xwww
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/wwwa245f236fd52b741^3335f536fd52b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/www000000000080d041^777"CpResource www /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/www    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/www /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app36"A02AA6B6-24AD-4E91-B8F1-2BBE9ECBB2AB-
+
+CGenerateDSYMFile /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.app.dSYM /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/MyMobileApp_ios
+r0
+
+CLd /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/MyMobileApp_ios normal i386
+r0
+
+CPhaseScriptExecution "Touch www folder" /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Script-304B58A110DAC018002A0835.sh
+s391314742.913775
+e391314742.936988
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'c8d3ea36fd52b741^84f1ef36fd52b741^---0#0#0#--21849"PhaseScriptExecution "Touch www folder" build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Script-304B58A110DAC018002A0835.sh    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv ACTION install    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER krishna    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build    setenv BUILD_ROOT /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build    setenv CACHE_ROOT /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_OBJCPP_ARC_ABI YES    setenv CLASS_FILE_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build    setenv CONFIGURATION_TEMP_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator    setenv CONTENTS_FOLDER_PATH MyMobileApp_ios.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION YES    setenv DEPLOYMENT_POSTPROCESSING YES    setenv DERIVED_FILES_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH MyMobileApp_ios.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME MyMobileApp_ios.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH MyMobileApp_ios.app/Executables    setenv EXECUTABLE_FOLDER_PATH MyMobileApp_ios.app    setenv EXECUTABLE_NAME MyMobileApp_ios    setenv EXECUTABLE_PATH MyMobileApp_ios.app/MyMobileApp_ios    setenv FILE_LIST /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH MyMobileApp_ios.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME MyMobileApp_ios.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER MyMobileApp_ios/MyMobileApp_ios-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/include\" \"/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/usr/local/lib/include\" \"/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/UninstalledProducts/include\" \"/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE MyMobileApp_ios/MyMobileApp_ios-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH MyMobileApp_ios.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH MyMobileApp_ios.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER krishna    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH MyMobileApp_ios.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal/i386/MyMobileApp_ios.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH MyMobileApp_ios.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11G63    setenv MAC_OS_X_VERSION_ACTUAL 1075    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0705    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Objects-normal    setenv OBJROOT /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH MyMobileApp_ios.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/PkgInfo    setenv PKGINFO_PATH MyMobileApp_ios.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH MyMobileApp_ios.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH MyMobileApp_ios.app/PrivateHeaders    setenv PRODUCT_NAME MyMobileApp_ios    setenv PRODUCT_SETTINGS_PATH /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/MyMobileApp_ios-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT MyMobileApp_ios    setenv PROJECT_DERIVED_FILE_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/DerivedSources    setenv PROJECT_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PROJECT_FILE_PATH /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios.xcodeproj    setenv PROJECT_NAME MyMobileApp_ios    setenv PROJECT_TEMP_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build    setenv PROJECT_TEMP_ROOT /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH MyMobileApp_ios.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH MyMobileApp_ios.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH MyMobileApp_ios.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH MyMobileApp_ios.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv SRCROOT /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME MyMobileApp_ios    setenv TARGET_BUILD_DIR /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications    setenv TARGET_NAME MyMobileApp_ios    setenv TARGET_TEMP_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build    setenv TEMP_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build    setenv TEMP_FILES_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build    setenv TEMP_FILE_DIR /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build    setenv TEMP_ROOT /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH MyMobileApp_ios.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER krishna    setenv USER_APPS_DIR /Users/krishna/Applications    setenv USER_LIBRARY_DIR /Users/krishna/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "\"i386\""    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH MyMobileApp_ios.app/version.plist    setenv VERSION_INFO_BUILDER krishna    setenv VERSION_INFO_FILE MyMobileApp_ios_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:MyMobileApp_ios  PROJECT:MyMobileApp_ios-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME MyMobileApp_ios.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/Script-304B58A110DAC018002A0835.sh36"EBE08F6E-EA8F-4373-A53E-63936097AE94-
+
+CProcessInfoPlistFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Info.plist MyMobileApp_ios/MyMobileApp_ios-Info.plist
+s391314742.884002
+e391314742.898108
+r1
+xProcessInfoPlistFile
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Info.plist
+xMyMobileApp_ios/MyMobileApp_ios-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Process MyMobileApp_ios/MyMobileApp_ios-Info.plist1897e236fd52b741^98f6e536fd52b741^-203"warning: invalid character '_' in Bundle Identifier at column 32. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.1(21%IDEActivityLogMessage2@194"invalid character '_' in Bundle Identifier at column 32. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.102"Invalid character '_' in Bundle Identifier at column 32. This string must be a uniform type identifier391314742#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Info.plist Utility Warning--0#0#0#-19%DVTDocumentLocation4@122"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/MyMobileApp_ios-Info.plist0000000000000000^788"ProcessInfoPlistFile /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Info.plist MyMobileApp_ios/MyMobileApp_ios-Info.plist    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MyMobileApp_ios/MyMobileApp_ios-Info.plist -genpkginfo /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/Info.plist36"0DCB10BA-A256-4492-A3DA-A830A0EEC948-
+
+CProcessPCH /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch.pth MyMobileApp_ios/MyMobileApp_ios-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391314751.143775
+e391314751.570282
+r1
+xProcessPCH
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch.pth
+xMyMobileApp_ios/MyMobileApp_ios-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile MyMobileApp_ios/MyMobileApp_ios-Prefix.pchd8f4243ffd52b741^05fd913ffd52b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/MyMobileApp_ios-Prefix.pch0000000000000000^3868"ProcessPCH /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch.pth MyMobileApp_ios/MyMobileApp_ios-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.2 -iquote /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-generated-files.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-own-target-headers.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-all-target-headers.hmap -iquote /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/MyMobileApp_ios-project-headers.hmap -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/include -I/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/usr/local/lib/include -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/UninstalledProducts/include -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources/i386 -I/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.build/Release-iphonesimulator/MyMobileApp_ios.build/DerivedSources -F/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build --serialize-diagnostics /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch.dia -c /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/MyMobileApp_ios/MyMobileApp_ios-Prefix.pch -o /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/MyMobileApp_ios-Prefix-arshwijrkkzurmbtuhvparocafjr/MyMobileApp_ios-Prefix.pch.d36"F3A8D125-56F0-4035-B997-3D30C2B9DDC6-
+
+CSetMode u+w,go-w,a+rX /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app
+r0
+
+CSetOwnerAndGroup krishna:staff /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app
+r0
+
+CStrip /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app/MyMobileApp_ios
+r0
+
+CSymLink /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.app /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app
+s391314742.885082
+e391314742.904820
+r1
+xSymLink
+x/Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.app
+x/var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Process /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.app00a8e236fd52b741^12a3e736fd52b741^---0#0#0#--592"SymLink build/MyMobileApp_ios.app /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app    cd /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /bin/ln -sf /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.app36"9AE1F2C6-1ADE-4A12-B237-6767CE32155A-
+
+CTouch /Users/krishna/Zend/workspaces/DefaultWorkspace/MyMobileApp_ios/build/MyMobileApp_ios.app.dSYM
+r0
+
+CTouch /var/folders/nf/lm9s80614fgfdrr7cwn_0g240000gp/T/1237647487/Applications/MyMobileApp_ios.app
+r0
+

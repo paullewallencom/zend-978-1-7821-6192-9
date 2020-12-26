@@ -1,0 +1,11 @@
+--- zfusersmodule/view/layout/myaccount-layout.phtml
++++ zfusersmodule/view/layout/myaccount-layout.phtml
+@@ -37,7 +37,7 @@
+ 							<li ><a href="<?php echo $this->url('users/group-chat') ?>"><?php echo $this->translate('Group chat') ?></a></li>                            		                        
+                             <li ><a href="<?php echo $this->url('users/user-manager') ?>"><?php echo $this->translate('Manage Users') ?></a></li>
+ 							<li ><a href="<?php echo $this->url('users/upload-manager') ?>"><?php echo $this->translate('Manage Documents') ?></a></li>
+-							<li ><a href="<?php echo $this->url('users/login/logout') ?>"><?php echo $this->translate('Logout') ?></a></li>									
++							<li ><a href="<?php echo $this->url('users/login', array('action' => 'logout')) ?>"><?php echo $this->translate('Logout') ?></a></li>									
+                         </ul>
+                     </div><!--/.nav-collapse -->
+                 </div>

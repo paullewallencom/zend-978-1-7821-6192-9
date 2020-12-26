@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gateway xmlns="http://www.zend.com/gateway/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <response default="true" type="json">
+      <header name="Access-Control-Allow-Origin" value="*"/>
+      <header name="no-cache" value="true"/>
+   </response>
+   <route authenticate="true" dispatchable="MyCompany\Controller\RpcController::getCustomersAction" url="/customers" methods="GET"/>
+   <route authenticate="true" dispatchable="MyCompany\Controller\RpcController::getHelloAction" url="/hello/:name/:surname" methods="GET">
+      <parameters>
+         <parameter name="name" required="true" source="route"/>
+         <parameter name="surname" required="true" source="route"/>
+      </parameters>
+   </route>
+   <resource authenticate="true" dispatchable="MyCompany\Controller\RestCustomerController" url="/customer[/:id]">
+      <parameters>
+         <parameter name="id" required="false" source="route"/>
+         <parameter name="name" required="true" source="body"/>
+         <parameter name="location" required="true" source="body"/>
+         <parameter name="activity" required="false" source="body"/>
+         <parameter name="phone" required="false" source="body"/>
+      </parameters>
+      <validate>
+         <param allow_empty="true" name="id" required="false" source="route"/>
+         <param allow_empty="true" name="name" required="true" source="body">
+            <validators>
+               <validator name="alpha">
+                  <options>
+                     <allowWhiteSpace>false</allowWhiteSpace>
+                  </options>
+               </validator>
+            </validators>
+         </param>
+         <param allow_empty="true" name="location" required="true" source="body">
+            <validators>
+               <validator name="alpha">
+                  <options>
+                     <allowWhiteSpace>false</allowWhiteSpace>
+                  </options>
+               </validator>
+            </validators>
+         </param>
+         <param allow_empty="true" name="activity" required="true" source="body"/>
+         <param allow_empty="true" name="phone" required="true" source="body"/>
+      </validate>
+   </resource>
+   <route authenticate="true" dispatchable="MyCompany\Controller\RpcController::getSearchCustomersAction" url="/search/:query" methods="GET">
+      <parameters>
+         <parameter name="query" required="true" source="route"/>
+      </parameters>
+   </route>
+</gateway>

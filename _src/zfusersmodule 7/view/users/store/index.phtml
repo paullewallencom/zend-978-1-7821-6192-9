@@ -1,0 +1,15 @@
+<h1>Products</h1>
+<table class="table">
+<tr>
+<?php foreach ($storeProducts as $product) : ?>
+    <td width="50%">
+    	<strong> <?php echo $this->escapeHtml($product->name);?> </strong> <br />
+    	<?php echo $this->escapeHtml($product->desc);?> <br />
+    	Cost: <strong>$<?php echo $this->escapeHtml($product->cost);?></strong> <br /><br />
+        <a href="<?php echo $this->url('users/store',
+            array('action'=>'productDetail', 'id' => $product->id));?>">View Product</a>
+    </td>
+<?php endforeach; ?>    
+</tr>
+
+</table>

@@ -1,0 +1,92 @@
+<section class="contact-us">
+<h2>HTML5 Test Form</h2>
+
+<?php if ($this->error): ?>
+<p class="error">
+    There were one or more isues with your submission. Please correct them as 
+    indicated below.
+</p>
+<?php endif ?>
+
+<?php 
+$form = $this->form;
+$form->prepare();
+$form->setAttribute('action', $this->url(NULL, array('controller'=>'Index', 'action' => 'process')));
+$form->setAttribute('method', 'post');
+
+echo $this->form()->openTag($form);
+?>
+<dl class="zend_form">
+<dt>HTML5 Test Form</dt>
+
+<dt><?php echo $this->formLabel($form->get('element-date-time')); ?></dt>
+<dd><?php 
+    echo $this->formDateTime($form->get('element-date-time'));
+    echo $this->formElementErrors($form->get('element-date-time'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('element-date-time-local')); ?></dt>
+<dd><?php 
+    echo $this->formDateTimeLocal($form->get('element-date-time-local'));
+    echo $this->formElementErrors($form->get('element-date-time-local'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('element-time')); ?></dt>
+<dd><?php 
+    echo $this->formTime($form->get('element-time'));
+    echo $this->formElementErrors($form->get('element-time'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('element-date')); ?></dt>
+<dd><?php 
+    echo $this->formDate($form->get('element-date'));
+    echo $this->formElementErrors($form->get('element-date'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('element-week')); ?></dt>
+<dd><?php 
+    echo $this->formWeek($form->get('element-week'));
+    echo $this->formElementErrors($form->get('element-week'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('element-month')); ?></dt>
+<dd><?php 
+    echo $this->formMonth($form->get('element-month'));
+    echo $this->formElementErrors($form->get('element-month'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('element-email')); ?></dt>
+<dd><?php 
+    echo $this->formEmail($form->get('element-email'));
+    echo $this->formElementErrors($form->get('element-email'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('element-url')); ?></dt>
+<dd><?php 
+    echo $this->formUrl($form->get('element-url'));
+    echo $this->formElementErrors($form->get('element-url'));
+?></dd>		
+
+<dt><?php echo $this->formLabel($form->get('element-number')); ?></dt>
+<dd><?php 
+    echo $this->formNumber($form->get('element-number'));
+    echo $this->formElementErrors($form->get('element-number'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('element-range')); ?></dt>
+<dd><?php 
+    echo $this->formRange($form->get('element-range'));
+    echo $this->formElementErrors($form->get('element-range'));
+?></dd>
+
+<dt><?php echo $this->formLabel($form->get('element-color')); ?></dt>
+<dd><?php 
+    echo $this->formColor($form->get('element-color'));
+    echo $this->formElementErrors($form->get('element-color'));
+?></dd>
+
+<dd><?php echo $this->formSubmit($form->get('element-submit'));?></dd>
+
+</dl>
+<?php echo $this->form()->closeTag() ?>
+</section>

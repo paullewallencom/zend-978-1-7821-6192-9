@@ -1,0 +1,24 @@
+<a href="<?php echo $this->url('users/store-admin');?>"> View Products</a> | <a href="<?php echo $this->url('users/store-admin', array('action'=>'listOrders'));?>"> View Orders</a>
+<hr />
+<h3>Store Orders</h3>
+<table class="table">
+<tr>
+    <th>ID</th>
+    <th>Date</th>
+    <th>Total</th>
+    <th>Status</th>
+    <th>Actions</th>
+</tr>
+<?php foreach ($storeOrders as $order) : ?>
+<tr>
+	<td><?php echo $this->escapeHtml($order->id);?></td>
+    <td><?php echo $this->escapeHtml($order->stamp);?></td>
+    <td><?php echo $this->escapeHtml($order->total);?></td>
+    <td><?php echo $this->escapeHtml($order->status);?></td>
+    <td>
+        <a href="<?php echo $this->url('users/store-admin',
+            array('action'=>'viewOrder', 'id' => $order->id));?>">View Order</a>
+    </td>
+</tr>
+<?php endforeach; ?>
+</table>

@@ -1,0 +1,38 @@
+<h1>Product Info</h1>
+<table class="table">
+<tr>
+    <td width="50%">
+    	<strong> <?php echo $this->escapeHtml($product->name);?> </strong> <br /> <br /> <br />
+    	<?php echo $this->escapeHtml($product->desc);?> <br /> <br />
+    	Cost: <strong>$<?php echo $this->escapeHtml($product->cost);?></strong> <br /><br />
+    </td>
+</tr>
+</table>
+
+<?php 
+$form = $this->form;
+$form->prepare();
+$form->setAttribute('action', $this->url(NULL, array('controller'=>'Store', 'action' => 'shoppingCart')));
+$form->setAttribute('method', 'post');
+
+echo $this->form()->openTag($form);
+?>
+	<table class="table">
+
+	<tr>
+	    <td> <?php echo $this->formLabel($form->get('qty')); ?> </td>
+		<td> <?php  echo $this->formElement($form->get('qty'));
+	    			echo $this->formElementErrors($form->get('qty'));	?> 
+		</td>
+	</tr>
+	<tr>
+	    <td> &nbsp;</td>
+		<td><?php echo $this->formElement($form->get('submit'));
+	    	echo $this->formElementErrors($form->get('submit'));
+			?> <?php echo $this->formElement($form->get('store_product_id'));
+			?>
+		</td>
+	</tr>		
+	</table>
+
+<?php echo $this->form()->closeTag() ?>

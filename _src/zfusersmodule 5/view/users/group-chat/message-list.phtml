@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<section id="messages" >
+	<?php foreach ($messageList as $mesg) : ?>
+
+	<div class="message" style="clear:both;">
+		<span class='msg-time'>[<?php echo $this->escapeHtml($mesg['time']);?>]</span> 
+		<span class='msg-user'> <?php echo $this->escapeHtml($mesg['user']);?>: </span>
+		<span class='msg-data'><?php echo $this->escapeHtml($mesg['data']);?></span>
+	</div>
+	<?php endforeach; ?>
+	
+</section>
+</body>
+</html>

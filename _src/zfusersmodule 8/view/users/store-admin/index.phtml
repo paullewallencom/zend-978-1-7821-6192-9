@@ -1,0 +1,27 @@
+<a href="<?php echo $this->url('users/store-admin');?>"> View Products</a> | <a href="<?php echo $this->url('users/store-admin', array('action'=>'listOrders'));?>"> View Orders</a>
+<hr />
+<h3>Manage Products</h3>
+<table class="table">
+<tr>
+    <th>ID</th>
+    <th>Product Name</th>
+    <th>Description</th>
+    <th>Cost</th>
+    <th>Actions</th>
+</tr>
+<?php foreach ($storeProducts as $product) : ?>
+<tr>
+	<td><?php echo $this->escapeHtml($product->id);?></td>
+    <td><?php echo $this->escapeHtml($product->name);?></td>
+    <td><?php echo $this->escapeHtml($product->desc);?></td>
+    <td><?php echo $this->escapeHtml($product->cost);?></td>
+    <td>
+        <a href="<?php echo $this->url('users/store-admin',
+            array('action'=>'editProduct', 'id' => $product->id));?>">Modify</a> |    
+        <a href="<?php echo $this->url('users/store-admin',
+            array('action'=>'deleteProduct', 'id' => $product->id));?>" onclick="return confirm('Are you sure?')">Delete</a>
+    </td>
+</tr>
+<?php endforeach; ?>
+</table>
+<input name="submit" type="submit" value="Add Product">

@@ -1,0 +1,34 @@
+<h1>Shopping Cart</h1>
+
+<h5>Order Details</h5>
+
+<table width="80%" border="1px">
+	<tr>
+		<th> Name</th>
+		<th> Qty</th>
+		<th> Unit Cost</th>
+		<th> Total</th>
+	</tr>
+	<tr>
+		<td> <?php echo $order->getProduct()->name; ?> </td>
+		<td align="center"> <?php echo $order->qty; ?> </td>
+		<td align="center"> <?php echo $order->getProduct()->cost; ?> </td>
+		<td align="right"> <?php echo $order->total; ?> </td>
+	</tr>
+	<tr>
+		<td colspan="3" align="right"><strong> Total: </strong> </td>
+		<td align="right"> <?php echo $order->total; ?> </td>
+	</tr>
+</table>
+<br />
+<h5>Payment Options</h5>
+
+<!-- Express Checkout Snippet -->
+<!--  <input type='image' name='submit' src='http://www.warpathcraft.com/wp-content/uploads/2012/12/ad_checkout_icon.gif' border='0' align='top' alt='Check out with PayPal'/>
+<br />
+ -->
+<form action="<?php echo $this->url(NULL, array('controller'=>'Store', 'action' => 'paypalExpressCheckout')); ?>" METHOD='POST'>
+<input type="hidden" name='orderId' value="<?php echo $order->id; ?>">
+<input type='image' name='submit' src='https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif' border='0' align='top' alt='Check out with PayPal'/>
+</form>
+<!-- END Express Checkout Snippet -->

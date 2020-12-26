@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+        </title>
+        <link rel="stylesheet" href="style/jquery.mobile-1.1.1.min.css"
+        />
+        <link rel="stylesheet" href="style/my.css" />
+        
+        <script src="js/jquery-1.7.2.min.js">
+        </script>
+        <script src="js/jquery.mobile-1.1.1.min.js">
+        </script>
+        <script type="text/javascript" src="js/cordova-2.1.0.js"></script>
+        <script src="js/my.js">
+        </script>
+    </head>
+    
+    <body>
+        <!-- Index -->
+        <div id="page1" data-role="page">
+            <div data-role="header" data-theme="a">
+                <h3>
+                    Customers
+                </h3>
+            </div>
+            <div data-role="content">
+                <ul id="customers" data-role="listview" data-inset="true" data-divider-theme="b">
+                    <li role="heading" data-role="list-divider">
+                        Customers
+                    </li>
+                    <li data-theme="">
+                        <a href="#page1" data-transition="none">
+                            Customer1
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="none">
+                            Customer2
+                        </a>
+                    </li>
+                </ul>
+                <a id="getListBtn" href="#" data-role="button">
+                    Get List
+                </a>
+                <h3 id="errorMessage">
+                    /messages/
+                </h3>
+                <a id="button8" href="#page4" data-role="button">
+                    Search
+                </a>
+            </div>
+        </div>
+        <!-- customerDetails -->
+        <div id="page2" data-role="page">
+            <div data-role="header" data-theme="a">
+                <h3>
+                    Details
+                </h3>
+                <a class="ui-btn-left" href="#page1" data-role="button" data-iconpos="left"
+                data-icon="arrow-l">
+                    Back
+                </a>
+            </div>
+            <div data-role="content">
+                <h2 id="customername">
+                    Customer name
+                </h2>
+                <h5 id="customeractivity">
+                    Is currently in:
+                </h5>
+                <img width="288" height="200" id="locationMap" src="https://maps.googleapis.com/maps/api/staticmap?center=Madison, WI&amp;zoom=14&amp;size=288x200&amp;markers=Madison, WI&amp;sensor=false">
+                <a id="customercall" href="#page1" data-role="button">
+                    Make a call
+                </a>
+            </div>
+        </div>
+        <!-- searchCustomers -->
+        <div id="page4" data-role="page">
+            <div id="pageheader4" data-role="header" data-theme="a">
+                <h3 id="heading7">
+                    Search
+                </h3>
+                <a class="ui-btn-right" id="button7" href="#page1" data-role="button"
+                data-iconpos="left" data-icon="arrow-l">
+                    Back
+                </a>
+            </div>
+            <div data-role="content">
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <label for="custsearchinput">
+                        </label>
+                        <input id="custsearchinput" type="text" placeholder="Customer Name" value="">
+                    </fieldset>
+                </div>
+                <a id="searchbutton" href="#" data-role="button">
+                    Search
+                </a>
+                <ul id="custlistview" data-role="listview" data-inset="true" data-divider-theme="b">
+                    <li data-theme="c">
+                        <a href="#page2" data-transition="slide">
+                            Button
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </body>
+
+</html>
